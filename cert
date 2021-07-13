@@ -1,1 +1,153 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T07:05:52.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.8.4" etag="1wDw1ld-v9lFM9LNU1YV" type="github"><diagram id="M-7u73fUfcbP-wskKJSC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-13T03:27:39.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="YGzQSbGTqZ16HyzwEZcr" version="14.8.4" type="github">
+  <diagram id="M-7u73fUfcbP-wskKJSC" name="Page-1">
+    <mxGraphModel dx="1550" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" width="640" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-2" value="org1.example.com" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-3" value="org2.example.com" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-4" value="example.com" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="ca.example.com&lt;br&gt;CA:TRUE" link="ca.example.com" id="tyDb-gFUG6agE5rfMqjm-5">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="290" y="120" width="110" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="tlsca.example.com&lt;br&gt;CALtrue&lt;br&gt;" link="tlsca.example.com" id="tyDb-gFUG6agE5rfMqjm-6">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="425" y="120" width="120" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="orderer1.example.com&lt;br&gt;CA:false" link="orderer.example.com" id="tyDb-gFUG6agE5rfMqjm-8">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="150" y="190" width="140" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="orderer1.example.com&lt;br&gt;CA:false&lt;br&gt;DNS&lt;br&gt;" link="orderer.example.com" id="tyDb-gFUG6agE5rfMqjm-9">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="440" y="190" width="140" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-11" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyDb-gFUG6agE5rfMqjm-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="160" as="sourcePoint" />
+            <mxPoint x="380" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-12" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tyDb-gFUG6agE5rfMqjm-6" target="tyDb-gFUG6agE5rfMqjm-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="410" as="sourcePoint" />
+            <mxPoint x="380" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-13" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="tyDb-gFUG6agE5rfMqjm-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="80" as="sourcePoint" />
+            <mxPoint x="380" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-14" value="Admin@example.com&lt;br&gt;CA:false" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-15" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="tyDb-gFUG6agE5rfMqjm-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="160" as="sourcePoint" />
+            <mxPoint x="230" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-16" value="Admin@example.com&lt;br&gt;CA:False" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-17" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyDb-gFUG6agE5rfMqjm-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="150" as="sourcePoint" />
+            <mxPoint x="505" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-18" value="" style="endArrow=classic;html=1;exitX=0.758;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tyDb-gFUG6agE5rfMqjm-4" target="tyDb-gFUG6agE5rfMqjm-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="90" as="sourcePoint" />
+            <mxPoint x="359.090909090909" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="ca.org1.example.com&lt;br&gt;CA:TRUE" link="ca.example.com" id="tyDb-gFUG6agE5rfMqjm-19">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="90" y="450" width="140" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="tlsca.org1.example.com&lt;br&gt;CA:True" link="tlsca.org1.example.com" id="tyDb-gFUG6agE5rfMqjm-20">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="250" y="450" width="150" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="peer0.org1.example.com&lt;br&gt;CA:false" link="peer0.org1.example.com" id="tyDb-gFUG6agE5rfMqjm-21">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="60" y="570" width="160" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-22" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tyDb-gFUG6agE5rfMqjm-2" target="tyDb-gFUG6agE5rfMqjm-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="170" as="sourcePoint" />
+            <mxPoint x="230" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-23" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="490" as="sourcePoint" />
+            <mxPoint x="110" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="peer0.org1.example.com&lt;br&gt;CA:false&lt;br&gt;DNS" link="peer0.org1.example.com" id="tyDb-gFUG6agE5rfMqjm-24">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="300" y="560" width="160" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-25" value="" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tyDb-gFUG6agE5rfMqjm-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="207.57359312880726" y="418.2842712474619" as="sourcePoint" />
+            <mxPoint x="320" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-26" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tyDb-gFUG6agE5rfMqjm-20" target="tyDb-gFUG6agE5rfMqjm-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="292.42640687119274" y="418.2842712474617" as="sourcePoint" />
+            <mxPoint x="330" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="orderer.example.com&lt;br&gt;CA:false&lt;br&gt;DNS" link="orderer.example.com" id="tyDb-gFUG6agE5rfMqjm-27">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="440" y="240" width="140" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="orderer.example.com&lt;br&gt;CA:false" link="orderer.example.com" id="tyDb-gFUG6agE5rfMqjm-28">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="150" y="240" width="140" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-30" value="Admin@org1.example.com&lt;br&gt;CA:false&lt;br&gt;OU=admin" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="620" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-31" value="Admin@org1.example.com&lt;br&gt;CA:false&lt;br&gt;OU=admin" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="620" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-32" value="User1@org1.example.com&lt;br&gt;CA:false&lt;br&gt;OU=client" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="690" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-33" value="User1@org1.example.com&lt;br&gt;CA:false&lt;br&gt;OU=client&lt;br&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="690" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tyDb-gFUG6agE5rfMqjm-34" value="X509v3 Extended Key Usage:&lt;br&gt;TLSserver" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="490" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
